@@ -22,7 +22,6 @@ cd python-web-login
 
 ## PROJECT STRUCTURE
 <pre>
-```
 project-root
 │
 ├── config
@@ -45,7 +44,6 @@ project-root
 │   ├── login_tests.py      # login test scenarios
 │   └── logout_tests.py     # logout test scenarios
 │
-```
 </pre>
 
 ## Running Tests
