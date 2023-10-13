@@ -1,5 +1,6 @@
 # Test Automation - Web - Python, Pytest, Selenium
 The purpose of this project is to implement automated login tests using python for https://www.saucedemo.com/.
+There are positive and negative scenarios and the possibility to run tests in parallel.
 
 ## Prerequisites
 Ensure you have the following installed before running the project:
@@ -49,6 +50,13 @@ project-root
 ## Running Tests
 ### Run All Tests
 ```pytest -s tests/login_tests.py tests/logout_tests.py```
+
+### Run All Tests - in parallel
+It will run 2 tests in parallel
+```pytest -s tests/*_tests.py --verbose -n=2```
+
+It will run 4 tests in parallel
+```pytest -s tests/*_tests.py --verbose -n=4```
 
 ### Run Specific Tests
 #### Login Tests
