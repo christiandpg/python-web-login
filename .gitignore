@@ -1,0 +1,106 @@
+# Python-related
+__pycache__/
+*.py[cod]
+*.so
+*.dylib
+
+# Virtual environment
+venv/
+env/
+env.bak/
+env1/
+venv1/
+env-*/
+.venv*/
+.venv*/
+.Python
+poetry.lock
+
+# Poetry
+__pypackages__/
+.poetry/
+
+# Pytest
+pytest_cache/
+__pytest_cache__/
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Miscellaneous
+*.bak
+*.tmp
+*.old
+*.bak2
+*.orig
+*.rej
+*.swp
+*.tar.gz
+*.tgz
+*.zip
+*.gz
+*.rar
+*.7z
+*.exe
+*.msi
+*.bin
+*.jar
+*.apk
+*.war
+*.db
+*.sqlite
+*.sqlite3
+*.gz
+
+# Database
+*.db
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# TextMate
+*.tmproj
+*.tmproject
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# pyenv
+.python-version
+
+# Logs
+logs
+*.log
+
+# Python bytecode
+*.pyc
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pipenv
+.Pipfile.lock

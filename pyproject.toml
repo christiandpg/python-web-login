@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python-web-login"
+version = "0.1.0"
+description = ""
+authors = ["christian <christian.goncalves@pearson.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+selenium = "^4.14.0"
+pytest = "^7.4.2"
+autopep8 = "^2.0.4"
+flake8 = "^6.1.0"
+pytest-xdist = "^3.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
