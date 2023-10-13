@@ -11,8 +11,8 @@ Ensure you have the following installed before running the project:
 ## Setup
 1. Clone the repository:
 ``````
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/christiandpg/python-web-login.git
+cd python-web-login
 ``````
 
 2. Install dependencies using Poetry:
