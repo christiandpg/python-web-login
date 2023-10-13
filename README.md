@@ -20,7 +20,33 @@ cd python-web-login
 
 3. Install web browser driver (e.g., ChromeDriver) and update the driver path in the configuration if needed.
 
-
+## PROJECT STRUCTURE
+<pre>
+```
+project-root
+│
+├── config
+│   └── config.py            # test data - URL, username, password
+│   
+├── data
+│   └── messages.py          # login error messages for validation 
+│
+├── fixtures
+│   └── setup.py             # webdriver configuration / teardown 
+│
+├── helpers
+│   └── selenium_helpers.py  # webDriverWait methods
+│
+├── pages
+│   ├── inventory_page.py    # inventory page object
+│   └── login_page.py        # login page object
+│
+├── tests
+│   ├── login_tests.py      # login test scenarios
+│   └── logout_tests.py     # logout test scenarios
+│
+```
+</pre>
 
 ## Running Tests
 ### Run All Tests
